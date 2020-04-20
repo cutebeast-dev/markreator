@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500|Source+Code+Pro&display=swap");
+
+.App {
+  header {
+    padding: 15px;
+    background: linear-gradient(17deg, rgba(251, 251, 251, 1) 0%, rgba(235, 235, 235, 1) 100%);
+    font-family: "Quicksand", sans-serif;
+
+    h1 {
+      margin: 0;
+    }
+
+    small {
+      color: #7e7e7e;
+    }
+  }
+  section {
+    display: flex;
+    height: calc(100vh - 75px);
+    textarea {
+      width: 50%;
+      border: none;
+      resize: none;
+      outline: none;
+      padding: 15px;
+
+      background-color: #333;
+      color: #fafafa;
+
+      font-family: "Source Code Pro", monospace;
+      font-size: 17px;
+    }
+    .preview {
+      * {
+        margin: 0;
+      }
+
+      width: 50%;
+      background-color: #f9f9f9;
+      overflow-y: auto;
+
+      font-family: "Quicksand", sans-serif;
+      padding: 15px;
+
+      hr {
+        margin: 10px 0;
+      }
+
+      h2, h3, h4, h5, h6 {
+        margin-top: 15px;
+      }
+    }
+  }
+}
